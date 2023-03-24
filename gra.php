@@ -33,7 +33,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
       <a href="reset-password.php" onclick="setValue()">Ustaw nowe hasło</a>
     </div>
 
-    <span style="font-size:30px;cursor:pointer;position:fixed;top:20px;left:20px;" onclick="openNav()">&#9776;</span>
+    <span style="font-size:30px;color:white;cursor:pointer;position:fixed;top:20px;left:20px;" onclick="openNav()">&#9776;</span>
 
     <div id="main">
       <div class="sekcjaLewo brakZaznaczenia">
